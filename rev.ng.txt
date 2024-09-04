@@ -1,0 +1,969 @@
+#include "types-and-globals.h"
+#include "helpers.h"
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180001000_Code_x86_64(void) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_1 = _function_0x180023a70_Code_x86_64((pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 147248);
+  _var_0 = !_var_1 ? 4294967295 : 0;
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180001010_Code_x86_64(void) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_1 = _function_0x180023a70_Code_x86_64((pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 147328);
+  _var_0 = !_var_1 ? 4294967295 : 0;
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+_union_159 *_function_0x180001020_Code_x86_64(void) {
+  return &_segment_0x180030000_Code_x86_64_2408._offset_1728;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x180001c00_Code_x86_64(_struct_164 *_argument0) {
+  _union_150 _var_0;
+  _var_0._member0 = 18446744073709551614U;
+  if (_argument0->_offset_48._member0) {
+    if ((int32_t) _argument0->_offset_40._member0 > (int32_t) 0) {
+      generic64_t _var_1;
+      _var_1 = 0;
+      generic8_t _var_2;
+      _struct_97 _var_3;
+      do {
+        _function_0x180001cb0_Code_x86_64((_struct_140 *) (((int64_t) ((number64_t) _var_1 << 32) >> 32) * 760 + _argument0->_offset_48._member0), _var_3);
+        _var_2 = (int64_t) ((number64_t) (_var_1 + 1) << 32) < (int64_t) ((number64_t) _argument0->_offset_40._member0 << 32);
+        _var_1 = _var_1 + 1 & 0xFFFFFFFF;
+      } while (_var_2);
+    }
+    if (_argument0->_offset_48._member0) {
+      _union_151 _var_4;
+      _function_0x1800235ac_Code_x86_64(_argument0->_offset_48._member0, 760, *(generic64_t *) (_argument0->_offset_48._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 1488, _var_0, _undef_generic64_t(), _var_4, _undef_generic64_t());
+      _function_0x1800235a4_Code_x86_64((_union_200 *) (_argument0->_offset_48._member0 - 8), *(generic64_t *) (_argument0->_offset_48._member0 - 8) * 760 + 8);
+    }
+    _argument0->_offset_48._member0 = 0;
+  }
+  _argument0->_offset_40._member0 = 0;
+}
+
+_ABI(raw_x86_64)
+void _function_0x180001cb0_Code_x86_64(_struct_140 *_register_rcx _REG(rcx_x86_64), _struct_97 _stack_arguments _STACK) {
+  _union_151 _var_0;
+  _union_150 _var_1;
+  _union_150 _var_2;
+  _var_1._member0 = 18446744073709551614U;
+  _var_2._member0 = 18446744073709551614U;
+  _stack_arguments._offset_8 = 0;
+  if (_register_rcx->_offset_8._member0) {
+    _function_0x1800235ac_Code_x86_64(_register_rcx->_offset_8._member0, 20, *(generic64_t *) (_register_rcx->_offset_8._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_1, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_register_rcx->_offset_8._member0 - 8), *(generic64_t *) (_register_rcx->_offset_8._member0 - 8) * 20 + 8);
+    _register_rcx->_offset_8._member0 = 0;
+  }
+  _register_rcx->_offset_0 = 0;
+  if (_register_rcx->_offset_24._member0) {
+    _function_0x1800235ac_Code_x86_64(_register_rcx->_offset_24._member0, 76, *(generic64_t *) (_register_rcx->_offset_24._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 1312, _var_2, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_register_rcx->_offset_24._member0 - 8), *(generic64_t *) (_register_rcx->_offset_24._member0 - 8) * 76 + 8);
+    _register_rcx->_offset_24._member0 = 0;
+  }
+  _register_rcx->_offset_16 = 0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x180002220_Code_x86_64(void) {
+  _union_150 _var_0;
+  _var_0._member0 = 18446744073709551614U;
+  if (_segment_0x180030000_Code_x86_64_2408._offset_1856._member0) {
+    generic64_t _var_1;
+    _var_1 = _segment_0x180030000_Code_x86_64_2408._offset_1856._member0;
+    if ((int32_t) _segment_0x180030000_Code_x86_64_2408._offset_1848._member0 > (int32_t) 0) {
+      generic64_t _var_2;
+      generic64_t _var_3;
+      _var_2 = _segment_0x180030000_Code_x86_64_2408._offset_1856._member0;
+      _var_3 = 0;
+      generic8_t _var_4;
+      do {
+        _function_0x1800022d0_Code_x86_64((_struct_144 *) (((int64_t) ((number64_t) _var_3 << 32) >> 32) * 280 + _var_2));
+        _var_2 = _segment_0x180030000_Code_x86_64_2408._offset_1856._member0;
+        _var_4 = (int64_t) ((number64_t) (_var_3 + 1) << 32) < (int64_t) ((number64_t) _segment_0x180030000_Code_x86_64_2408._offset_1848._member0 << 32);
+        _var_3 = _var_3 + 1 & 0xFFFFFFFF;
+      } while (_var_4);
+      _var_1 = _segment_0x180030000_Code_x86_64_2408._offset_1856._member0;
+      if (!_segment_0x180030000_Code_x86_64_2408._offset_1856._member0) {
+        _segment_0x180030000_Code_x86_64_2408._offset_1856._member0 = 0;
+        _segment_0x180030000_Code_x86_64_2408._offset_1848._member0 = 0;
+        return;
+      }
+    }
+    _union_151 _var_5;
+    _function_0x1800235ac_Code_x86_64(_var_1, 280, *(generic64_t *) (_var_1 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_0, _undef_generic64_t(), _var_5, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_var_1 - 8), *(generic64_t *) (_var_1 - 8) * 280 + 8);
+    _segment_0x180030000_Code_x86_64_2408._offset_1856._member0 = 0;
+  }
+  _segment_0x180030000_Code_x86_64_2408._offset_1848._member0 = 0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800022d0_Code_x86_64(_struct_144 *_argument0) {
+  _union_150 _var_0;
+  _var_0._member0 = 18446744073709551614U;
+  if (_argument0->_offset_272._member0) {
+    if ((int32_t) _argument0->_offset_264._member0 > (int32_t) 0) {
+      generic64_t _var_1;
+      _var_1 = 0;
+      generic8_t _var_2;
+      _struct_98 _var_3;
+      do {
+        _function_0x180002390_Code_x86_64((_struct_148 *) (((int64_t) ((number64_t) _var_1 << 32) >> 32) * 312 + _argument0->_offset_272._member0), _var_3);
+        _var_2 = (int64_t) ((number64_t) (_var_1 + 1) << 32) < (int64_t) ((number64_t) _argument0->_offset_264._member0 << 32);
+        _var_1 = _var_1 + 1 & 0xFFFFFFFF;
+      } while (_var_2);
+    }
+    if (_argument0->_offset_272._member0) {
+      _union_151 _var_4;
+      _function_0x1800235ac_Code_x86_64(_argument0->_offset_272._member0, 312, *(generic64_t *) (_argument0->_offset_272._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_0, _undef_generic64_t(), _var_4, _undef_generic64_t());
+      _function_0x1800235a4_Code_x86_64((_union_200 *) (_argument0->_offset_272._member0 - 8), *(generic64_t *) (_argument0->_offset_272._member0 - 8) * 312 + 8);
+    }
+    _argument0->_offset_272._member0 = 0;
+  }
+  _argument0->_offset_264._member0 = 0;
+}
+
+_ABI(raw_x86_64)
+void _function_0x180002390_Code_x86_64(_struct_148 *_register_rcx _REG(rcx_x86_64), _struct_98 _stack_arguments _STACK) {
+  _union_151 _var_0;
+  _union_150 _var_1;
+  _var_1._member0 = 18446744073709551614U;
+  _stack_arguments._offset_8 = 0;
+  if (_register_rcx->_offset_272._member0) {
+    _function_0x1800235ac_Code_x86_64(_register_rcx->_offset_272._member0, 16, *(generic64_t *) (_register_rcx->_offset_272._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_1, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_register_rcx->_offset_272._member0 - 8), *(generic64_t *) (_register_rcx->_offset_272._member0 - 8) << 4 | 0x8);
+    _register_rcx->_offset_272._member0 = 0;
+  }
+  _register_rcx->_offset_264 = 0;
+  _function_0x180002450_Code_x86_64(_register_rcx);
+  if (_register_rcx->_offset_288._member0) {
+    _function_0x1800235ac_Code_x86_64(_register_rcx->_offset_288._member0, 16, *(generic64_t *) (_register_rcx->_offset_288._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_1, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_register_rcx->_offset_288._member0 - 8), *(generic64_t *) (_register_rcx->_offset_288._member0 - 8) << 4 | 0x8);
+    _register_rcx->_offset_288._member0 = 0;
+  }
+  _register_rcx->_offset_280 = 0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x180002450_Code_x86_64(_struct_148 *_argument0) {
+  _union_150 _var_0;
+  _var_0._member0 = 18446744073709551614U;
+  if (_argument0->_offset_304._member0) {
+    _union_151 _var_1;
+    _function_0x1800235ac_Code_x86_64(_argument0->_offset_304._member0, 20, *(generic64_t *) (_argument0->_offset_304._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_0, _undef_generic64_t(), _var_1, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_argument0->_offset_304._member0 - 8), *(generic64_t *) (_argument0->_offset_304._member0 - 8) * 20 + 8);
+    _argument0->_offset_304._member0 = 0;
+  }
+  _argument0->_offset_296 = 0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800024d0_Code_x86_64(void) {
+  _union_151 _var_0;
+  _union_151 _var_1;
+  _union_150 _var_2;
+  _union_150 _var_3;
+  _var_0._member0 = 0;
+  _var_1._member0 = 0;
+  _var_2._member0 = 18446744073709551614U;
+  _var_3._member0 = 18446744073709551614U;
+  if (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0) {
+    _function_0x1800235ac_Code_x86_64(_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0, 520, *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_2, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0 - 8), *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0 - 8) * 520 + 8);
+    _segment_0x180030000_Code_x86_64_2408._offset_1776._offset_16._member0 = 0;
+  }
+  _segment_0x180030000_Code_x86_64_2408._offset_1776._offset_8 = 0;
+  if (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0) {
+    _function_0x1800235ac_Code_x86_64(_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0, 312, *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_3, _undef_generic64_t(), _var_1, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0 - 8), *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0 - 8) * 312 + 8);
+    _segment_0x180030000_Code_x86_64_2408._offset_1776._offset_32._member0 = 0;
+  }
+  _segment_0x180030000_Code_x86_64_2408._offset_1776._offset_24 = 0;
+  _function_0x180001c00_Code_x86_64(&_segment_0x180030000_Code_x86_64_2408._offset_1776);
+  if (_segment_0x180030000_Code_x86_64_2408._offset_1840._member0) {
+    _union_150 _var_4;
+    _function_0x1800235ac_Code_x86_64(_segment_0x180030000_Code_x86_64_2408._offset_1840._member0, 1480, *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1840._member0 - 8), (pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 176, _var_4, _undef_generic64_t(), _var_0, _undef_generic64_t());
+    _function_0x1800235a4_Code_x86_64((_union_200 *) (_segment_0x180030000_Code_x86_64_2408._offset_1840._member0 - 8), *(generic64_t *) (_segment_0x180030000_Code_x86_64_2408._offset_1840._member0 - 8) * 1480 + 8);
+    _segment_0x180030000_Code_x86_64_2408._offset_1840._member0 = 0;
+  }
+  _segment_0x180030000_Code_x86_64_2408._offset_1832 = 0;
+  _function_0x180002220_Code_x86_64();
+  _segment_0x180030000_Code_x86_64_2408._offset_1776._offset_0 = 0;
+  _segment_0x180030000_Code_x86_64_2408._offset_1868 = 0;
+}
+
+_ABI(Microsoft_x86_64)
+_union_165 *_function_0x180003a30_Code_x86_64(void) {
+  return &_segment_0x180030000_Code_x86_64_2408._offset_2392;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800235a4_Code_x86_64(_union_200 *_argument0, generic64_t _argument1) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800235ac_Code_x86_64(generic64_t _argument0, generic64_t _argument1, generic64_t _argument2, generic64_t _argument3, _union_150 _argument4, generic64_t _argument5, _union_151 _argument6, generic64_t _argument7) {
+  _struct_109 _stack;
+  *(generic64_t *) &(&_stack)[1]._offset_32 = _argument3;
+  *(generic64_t *) ((pointer_or_number64_t) &(&_stack)[1] + 16) = _argument1;
+  _stack._offset_56 = _argument1;
+  _stack._offset_32._member0 = '\000';
+  *(generic64_t *) ((pointer_or_number64_t) &(&_stack)[1] + 8) = _argument2 * _argument1 + _argument0;
+  *(generic64_t *) ((pointer_or_number64_t) &(&_stack)[1] + 24) = _argument2 - 1;
+  if (_argument2) {
+    generic64_t _var_0;
+    generic64_t _var_1;
+    _var_0 = 0;
+    _var_1 = _argument2 - 1;
+    generic64_t _var_2;
+    do {
+      _var_2 = _var_1;
+      *(generic64_t *) ((pointer_or_number64_t) &(&_stack)[1] + 8) = (_argument2 - 1) * _argument1 + _argument0 - _var_0 * _argument1;
+      _function_0x180024184_Code_x86_64(_argument3);
+      ((_cabifunction_266 *) _argument3)((_argument2 - 1) * _argument1 + _argument0 - _var_0 * _argument1);
+      _var_1 = _var_2 - 1;
+      *(generic64_t *) ((pointer_or_number64_t) &(&_stack)[1] + 24) = _argument2 - 2 - _var_0;
+      _var_0 = _var_0 + 1;
+    } while (_var_2);
+  }
+  _stack._offset_32._member0 = '\001';
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x18002367c_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800236fc_Code_x86_64(generic64_t _argument0) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic64_t _var_2;
+  _var_0 = _function_0x180024398_Code_x86_64();
+  _var_2 = _var_0;
+  if ((_var_2 & 0xFFFFFFFF)) {
+    while (true) {
+      _helper_lock();
+      if (!_segment_0x180030000_Code_x86_64_2408._offset_232._member0) {
+        _segment_0x180030000_Code_x86_64_2408._offset_232._member0 = *(generic64_t *) (*(generic64_t *) 48 + 8);
+        _helper_unlock();
+        _var_2 = 0;
+        break;
+      }
+      _helper_unlock();
+      if (*(generic64_t *) (*(generic64_t *) 48 + 8) != _segment_0x180030000_Code_x86_64_2408._offset_232._member0) {
+        continue;
+      }
+      _var_1 = *(generic64_t *) (*(generic64_t *) 48 + 8) & 0xFFFFFFFFFFFFFF00 | 0x1;
+      return _var_1;
+    }
+  }
+  _var_1 = _var_2 & 0xFFFFFFFFFFFFFF00;
+  return _var_1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023738_Code_x86_64(void) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic64_t _var_2;
+  _var_0 = _function_0x180024398_Code_x86_64();
+  if (!(_var_0 & 0xFFFFFFFF)) {
+    generic64_t _var_3;
+    _var_3 = _function_0x180024390_Code_x86_64();
+    _function_0x1800248ae_Code_x86_64();
+    if ((_var_3 & 0xFFFFFFFF)) {
+      _var_1 = _var_3 & 0xFFFFFFFFFFFFFF00;
+      return _var_1;
+    }
+    _function_0x1800248b4_Code_x86_64();
+    _var_2 = _var_3;
+  } else {
+    generic64_t _var_4;
+    _var_4 = _function_0x1800241c8_Code_x86_64((_union_155 *) _undef_generic64_t(), (_union_155 *) _undef_generic64_t());
+    _var_2 = _var_4;
+  }
+  _var_1 = _var_2 & 0xFFFFFFFFFFFFFF00 | 0x1;
+  return _var_1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x18002376c_Code_x86_64(generic64_t _argument0, _union_155 *_argument1, _union_155 *_argument2, _union_155 *_argument3) {
+  generic64_t _var_0;
+  _var_0 = _function_0x1800238b8_Code_x86_64(0, _argument1);
+  return _var_0 & 0xFFFFFFFFFFFFFF00 | (_var_0 & 0xFF) != 0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023784_Code_x86_64(void) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic64_t _var_2;
+  _var_0 = _function_0x1800248f0_Code_x86_64((_union_155 *) _undef_generic64_t());
+  _var_2 = _var_0;
+  if ((_var_2 & 0xFF)) {
+    generic64_t _var_3;
+    _var_3 = _function_0x1800248f0_Code_x86_64((_union_155 *) _undef_generic64_t());
+    if ((_var_3 & 0xFF)) {
+      _var_1 = _var_3 & 0xFFFFFFFFFFFFFF00 | 0x1;
+      return _var_1;
+    }
+    generic64_t _var_4;
+    _var_4 = _function_0x1800248f0_Code_x86_64((_union_155 *) _undef_generic64_t());
+    _var_2 = _var_4;
+  }
+  _var_1 = _var_2 & 0xFFFFFFFFFFFFFF00;
+  return _var_1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800237ac_Code_x86_64(void) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_1 = _function_0x1800248f0_Code_x86_64((_union_155 *) _undef_generic64_t());
+  _var_0 = _function_0x1800248f0_Code_x86_64((_union_155 *) _undef_generic64_t());
+  return _var_0 & 0xFFFFFFFFFFFFFF00 | 0x1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023828_Code_x86_64(generic64_t _argument0, _union_155 *_argument1, _union_155 *_argument2, _union_155 *_argument3) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_0 = _function_0x180024398_Code_x86_64();
+  _var_1 = _var_0;
+  if (!(_var_1 & 0xFFFFFFFF)) {
+    generic64_t _var_2;
+    _var_2 = _function_0x1800248f4_Code_x86_64(_argument0, _argument1);
+    _var_1 = _var_2;
+    if (!(_var_1 & 0xFFFFFFFF)) {
+      _function_0x1800248d2_Code_x86_64();
+      _var_1 = _var_2;
+    }
+  }
+  return _var_1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023858_Code_x86_64(generic64_t _argument0, _union_155 *_argument1) {
+  generic64_t _var_0;
+  _var_0 = _function_0x1800248f0_Code_x86_64((_union_155 *) NULL);
+  return _var_0 & 0xFFFFFFFFFFFFFF00 | 0x1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x18002386c_Code_x86_64(_union_155 *_argument0, _union_155 *_argument1) {
+  _struct_124 _stack;
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic8_t _var_2;
+  generic64_t _var_3;
+  generic64_t _var_4;
+  _stack._offset_32 = 1;
+  _var_2 = !((number64_t) _argument0 & 0xFFFFFFFF) ? '\001' : _segment_0x180030000_Code_x86_64_2408._offset_288._member0;
+  _segment_0x180030000_Code_x86_64_2408._offset_288._member0 = _var_2;
+  _var_1 = _function_0x1800241c8_Code_x86_64(_argument0, _argument1);
+  _var_0 = _function_0x1800248f0_Code_x86_64(_argument0);
+  _var_4 = _var_0;
+  if ((_var_4 & 0xFF)) {
+    generic64_t _var_5;
+    _var_5 = _function_0x1800248f0_Code_x86_64(_argument0);
+    if ((_var_5 & 0xFF)) {
+      _var_3 = _var_5 & 0xFFFFFFFFFFFFFF00 | 0x1;
+      return _var_3;
+    }
+    generic64_t _var_6;
+    _var_6 = _function_0x1800248f0_Code_x86_64((_union_155 *) NULL);
+    _var_4 = _var_6;
+  }
+  _var_3 = _var_4 & 0xFFFFFFFFFFFFFF00;
+  return _var_3;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800238b8_Code_x86_64(generic64_t _argument0, _union_155 *_argument1) {
+  _struct_119 _stack;
+  if ((number32_t) _argument0 < 2) {
+    generic64_t _var_0;
+    generic64_t _var_1;
+    _var_0 = _function_0x180024398_Code_x86_64();
+    if ((_var_0 & 0xFFFFFFFF) != 0 && !(number32_t) _argument0) {
+      _function_0x1800248ba_Code_x86_64();
+      _var_1 = _var_0 & 0xFFFFFFFFFFFFFF00;
+    } else {
+      generic64_t _var_2;
+      generic64_t _var_3;
+      generic64_t _var_4;
+      generic64_t _var_5;
+      _var_5 = _lshift((uint64_t) (64 - ((number32_t) _segment_0x180030000_Code_x86_64_2408._offset_8._member0 & 0x3F)), 4294967272);
+      _var_4 = _lshift((uint64_t) (((number32_t) _segment_0x180030000_Code_x86_64_2408._offset_8._member0 & 0x3F | 0x40) & (64 - ((number32_t) _segment_0x180030000_Code_x86_64_2408._offset_8._member0 & 0x3F) ^ 0x40)), 4294967276);
+      _stack._offset_32._member0 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _stack._offset_40 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _var_3 = _stack._offset_32._member0;
+      _stack._offset_48._member0 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _segment_0x180030000_Code_x86_64_2408._offset_240._member0 = _var_3;
+      _segment_0x180030000_Code_x86_64_2408._offset_248 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _stack._offset_32._member0 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _stack._offset_40 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _var_2 = _stack._offset_32._member0;
+      _stack._offset_48._member0 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _segment_0x180030000_Code_x86_64_2408._offset_256 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _segment_0x180030000_Code_x86_64_2408._offset_264 = _var_2;
+      _segment_0x180030000_Code_x86_64_2408._offset_272 = ~_segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+      _segment_0x180030000_Code_x86_64_2408._offset_280 = _stack._offset_48._member0;
+      _var_1 = 1;
+    }
+    return _var_1;
+  }
+  _struct_102 _var_6;
+  _function_0x1800243a4_Code_x86_64(5, _argument1, _var_6);
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023984_Code_x86_64(_union_166 *_argument0) {
+  _struct_126 _stack;
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_1 = 23117;
+  if (*(generic16_t *) 6442450944 == 23117) {
+    _var_1 = *(generic32_t *) 6442451004;
+    if (*(generic32_t *) (_var_1 + 6442450944) == 17744) {
+      _var_1 = 523;
+      if (*(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450968) == 523) {
+        generic64_t _var_2;
+        _var_2 = *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450950);
+        _stack._offset_0._member0 = (pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450968 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964);
+        if (*(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450950)) {
+          generic64_t _var_3;
+          generic64_t _var_4;
+          generic64_t _var_5;
+          _var_3 = 0;
+          _var_4 = (pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450968 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964);
+          _var_5 = *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450950);
+          while (true) {
+            generic64_t _var_6;
+            _var_6 = _var_5;
+            if (!((pointer_or_number64_t) _argument0 - 6442450944 < *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450980 + _var_3 * 40))) {
+              _var_6 = *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450980 + _var_3 * 40) + *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450976 + _var_3 * 40);
+              if ((pointer_or_number64_t) _argument0 - 6442450944 < _var_6) {
+                _var_2 = *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450980 + _var_3 * 40) + *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450976 + _var_3 * 40);
+                if (!_var_4) {
+                  break;
+                }
+                _var_0 = *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450980 + _var_3 * 40) + *(generic32_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442450976 + _var_3 * 40) & 0xFFFFFF00 | (int32_t) *(generic32_t *) (_var_4 + 36) > -1;
+                return _var_0;
+              }
+            }
+            generic8_t _var_7;
+            _var_4 = _var_4 + 40;
+            _stack._offset_0._member0 = (pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442451008 + _var_3 * 40;
+            _var_7 = (pointer_or_number64_t) *(generic32_t *) 6442451004 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964) + 6442451008 + _var_3 * 40 == _var_2 * 40 + ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450968 + *(generic16_t *) ((pointer_or_number64_t) *(generic32_t *) 6442451004 + 6442450964));
+            _var_3 = _var_3 + 1;
+            if (!(_var_7)) {
+              continue;
+            }
+            _var_2 = _var_6;
+            break;
+          }
+        }
+        _var_0 = _var_2 & 0xFFFFFFFFFFFFFF00;
+        return _var_0;
+      }
+    }
+  }
+  _var_0 = _var_1 & 0xFFFFFFFFFFFFFF00;
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023a20_Code_x86_64(generic64_t _argument0, _union_155 *_argument1) {
+  generic64_t _var_0;
+  _var_0 = _function_0x180024398_Code_x86_64();
+  if ((_var_0 & 0xFFFFFFFF) != 0 && !(_argument0 & 0xFF)) {
+    _helper_lock();
+    _segment_0x180030000_Code_x86_64_2408._offset_232._member0 = 0;
+    _helper_unlock();
+  }
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023a44_Code_x86_64(_union_155 *_argument0, generic64_t _argument1) {
+  generic64_t _var_0;
+  _var_0 = 1;
+  if (!_segment_0x180030000_Code_x86_64_2408._offset_288._member0 || !(_argument1 & 0xFF)) {
+    generic64_t _var_1;
+    generic64_t _var_2;
+    _var_2 = _function_0x1800248f0_Code_x86_64(_argument0);
+    _var_1 = _function_0x1800248f0_Code_x86_64(_argument0);
+    _var_0 = _var_1 & 0xFFFFFFFFFFFFFF00 | 0x1;
+  }
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023a70_Code_x86_64(generic64_t _argument0) {
+  generic64_t _var_0;
+  _var_0 = _lshift(_segment_0x180030000_Code_x86_64_2408._offset_8._member0 & 0x3F, 4294967272);
+  if ((_segment_0x180030000_Code_x86_64_2408._offset_8._member0 ^ _segment_0x180030000_Code_x86_64_2408._offset_240._member0) == (pointer_or_number64_t) -1) {
+    _function_0x1800248cc_Code_x86_64();
+  } else {
+    _function_0x1800248c0_Code_x86_64();
+  }
+  return _argument0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023ac0_Code_x86_64(generic64_t _argument0) {
+  generic64_t _var_0;
+  generic64_t _var_1;
+  _var_1 = _function_0x180023a70_Code_x86_64(_argument0);
+  _var_0 = !_var_1 ? 4294967295 : 0;
+  return _var_0;
+}
+
+_ABI(raw_x86_64)
+generic64_t _function_0x180023ad8_Code_x86_64(generic64_t _register_rcx _REG(rcx_x86_64), _union_155 *_register_rdx _REG(rdx_x86_64), _union_155 *_register_r8 _REG(r8_x86_64), _struct_100 _stack_arguments _STACK) {
+  generic64_t _var_0;
+  _struct_102 _var_1;
+  _var_0 = 1;
+  switch ((number32_t) _register_rdx) {
+    case 0:
+    {
+      generic8_t _var_2;
+      generic64_t _var_3;
+      _var_3 = _lshift((uint64_t) _segment_0x180030000_Code_x86_64_2408._offset_292._member0, 4294967272);
+      _var_2 = !_segment_0x180030000_Code_x86_64_2408._offset_292._member0 ? '@' : '\000';
+      _var_0 = 0;
+      if (!(_var_2 | (number8_t) _var_3 & 0x80)) {
+        generic64_t _var_4;
+        generic64_t _var_5;
+        _segment_0x180030000_Code_x86_64_2408._offset_292._member0 = _segment_0x180030000_Code_x86_64_2408._offset_292._member0 - 1;
+        _var_5 = _register_rcx & 0xFFFFFFFFFFFFFF00 | (pointer_or_number64_t) _register_r8 != 0;
+        _var_4 = _function_0x1800236fc_Code_x86_64(_var_5);
+        _stack_arguments._offset_8 = (number8_t) _var_4;
+        if (_segment_0x180030000_Code_x86_64_2408._offset_224._member0 != 2) {
+          _function_0x1800243a4_Code_x86_64(7, _register_rdx, _var_1);
+          _var_5 = 7;
+        }
+        generic64_t _var_6;
+        generic64_t _var_7;
+        generic64_t _var_8;
+        generic64_t _var_9;
+        _var_9 = _function_0x180023828_Code_x86_64(_var_5, _register_rdx, _register_r8, (_union_155 *) _undef_generic64_t());
+        _segment_0x180030000_Code_x86_64_2408._offset_224._member0 = 0;
+        _var_8 = _function_0x180023858_Code_x86_64(_var_5, _register_rdx);
+        _var_7 = _function_0x180023a20_Code_x86_64(_var_5 & 0xFFFFFFFFFFFFFF00 | _var_4 & 0xFF, _register_rdx);
+        _var_6 = _function_0x180023a44_Code_x86_64((_union_155 *) (_var_5 & 0xFFFFFFFFFFFFFF00 | (pointer_or_number64_t) _register_r8 != 0), 0);
+        _var_0 = (_var_6 & 0xFF) != 0;
+      }
+    } break;
+    case 1:
+    {
+      generic64_t _var_10;
+      _var_10 = _function_0x18002386c_Code_x86_64((_union_155 *) NULL, _register_r8);
+      _var_0 = 0;
+      if ((_var_10 & 0xFF)) {
+        generic64_t _var_11;
+        generic64_t _var_12;
+        _var_11 = _function_0x1800236fc_Code_x86_64(0);
+        _stack_arguments._offset_16 = (number8_t) _var_11;
+        _var_12 = 0;
+        if (_segment_0x180030000_Code_x86_64_2408._offset_224._member0) {
+          _function_0x1800243a4_Code_x86_64(7, _register_r8, _var_1);
+          _var_12 = 7;
+        }
+        generic64_t _var_13;
+        generic64_t _var_14;
+        generic8_t _var_15;
+        generic64_t _var_16;
+        _segment_0x180030000_Code_x86_64_2408._offset_224._member0 = 1;
+        _var_13 = _function_0x18002376c_Code_x86_64(_var_12, _register_r8, _register_r8, (_union_155 *) _undef_generic64_t());
+        _var_14 = 0;
+        _var_15 = false;
+        _var_16 = _register_r8;
+        if ((_var_13 & 0xFF)) {
+          generic64_t _var_17;
+          generic64_t _var_18;
+          _struct_101 _var_19;
+          _function_0x1800245fc_Code_x86_64(_var_12, _register_r8, _var_19);
+          _var_18 = _function_0x180023ac0_Code_x86_64((pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 144968);
+          _function_0x1800245bc_Code_x86_64((pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 144968);
+          _var_17 = _function_0x180023ac0_Code_x86_64((pointer_or_number64_t) &_segment_0x180001000_Code_x86_64_147456 + 144844);
+          _function_0x1800245d8_Code_x86_64();
+          _function_0x1800248de_Code_x86_64();
+          _var_14 = "";
+          _var_16 = "";
+          _var_15 = false;
+          if (!(_var_17 & 0xFFFFFFFF)) {
+            generic64_t _var_20;
+            _var_20 = _function_0x180023738_Code_x86_64();
+            _var_14 = "";
+            _var_16 = "";
+            _var_15 = false;
+            if ((_var_20 & 0xFF)) {
+              _function_0x1800248d8_Code_x86_64();
+              _segment_0x180030000_Code_x86_64_2408._offset_224._member0 = 2;
+              _var_14 = "";
+              _var_16 = "";
+              _var_15 = true;
+            }
+          }
+        }
+        generic64_t _var_21;
+        _var_21 = _function_0x180023a20_Code_x86_64(_var_14 | _var_11 & 0xFF, (_union_155 *) _var_16);
+        _var_0 = 0;
+        if (_var_15) {
+          _union_166 *_var_22;
+          _var_22 = _function_0x1800245f4_Code_x86_64(_var_14 | _var_11 & 0xFF, (_union_155 *) _var_16);
+          if (_var_22->_member0) {
+            generic64_t _var_23;
+            _var_23 = _function_0x180023984_Code_x86_64(_var_22);
+            if ((_var_23 & 0xFF)) {
+              _function_0x180024184_Code_x86_64(_var_22->_member0);
+              ((_cabifunction_269 *) _var_22->_member0)(_register_rcx, 2, (generic64_t) _register_r8);
+            }
+          }
+          _segment_0x180030000_Code_x86_64_2408._offset_292._member0 = _segment_0x180030000_Code_x86_64_2408._offset_292._member0 + 1;
+          _var_0 = 1;
+        }
+      }
+    } break;
+    case 2:
+    case 3:
+    {
+      generic64_t _var_24;
+      switch ((number32_t) _register_rdx) {
+        case 3:
+        {
+          generic64_t _var_25;
+          _var_25 = _function_0x1800237ac_Code_x86_64();
+          _var_24 = _var_25;
+        } break;
+        case 2:
+        {
+          generic64_t _var_26;
+          _var_26 = _function_0x180023784_Code_x86_64();
+          _var_24 = _var_26;
+        } break;
+      }
+      _var_0 = _var_24 & 0xFF;
+    } break;
+  }
+  return _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180023dd0_Code_x86_64(generic64_t _argument0, generic64_t _argument1, generic64_t _argument2) {
+  if (*(generic64_t *) "") {
+    _function_0x180024184_Code_x86_64(*(generic64_t *) "");
+    ((_cabifunction_270 *) *(generic64_t *) "")(_argument0, _argument1 & 0xFFFFFFFF, _argument2);
+  }
+  return 1;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x180024184_Code_x86_64(generic64_t _argument0) {
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800241c8_Code_x86_64(_union_155 *_argument0, _union_155 *_argument1) {
+  _struct_117 _stack;
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic64_t _var_2;
+  generic64_t _var_3;
+  generic64_t _var_4;
+  generic64_t _var_5;
+  generic64_t _var_6;
+  generic64_t _var_7;
+  generic64_t _var_8;
+  generic64_t _var_9;
+  generic64_t _var_10;
+  generic64_t _var_11;
+  generic64_t _var_12;
+  _stack._offset_8._member0 = 0;
+  _segment_0x180030000_Code_x86_64_2408._offset_28._member0 = 2;
+  _helper_cpuid_wrapper(NULL, 0, 0, &_var_8, &_var_9, &_var_10, &_var_11);
+  _segment_0x180030000_Code_x86_64_2408._offset_24._member0 = 1;
+  _var_12 = _segment_0x180030000_Code_x86_64_2408._offset_1696._member0;
+  _helper_cpuid_wrapper(NULL, 1, 0, &_var_4, &_var_5, &_var_6, &_var_7);
+  _stack._offset_16._member0 = (number32_t) _var_4;
+  _stack._offset_24._member0 = (number32_t) _var_6;
+  _stack._offset_20._member0 = (number32_t) _var_5;
+  _stack._offset_28._member0 = (number32_t) _var_7;
+  if (!((number32_t) _var_11 ^ 0x49656E69 | (number32_t) _var_10 ^ 0x6C65746E | (number32_t) _var_9 ^ 0x756E6547)) {
+    _segment_0x180030000_Code_x86_64_2408._offset_32 = 18446744073709551615U;
+    _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 = (number32_t) (_segment_0x180030000_Code_x86_64_2408._offset_1696._member0 | 0x4);
+    switch ((number32_t) ((number32_t) _var_4 & 0xFFF3FF0)) {
+      case 67264:
+      case 132704:
+      case 132720:
+      {
+        _var_12 = _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 | 0x5;
+        _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 = (number32_t) _var_12;
+      } break;
+      default:
+      {
+        _var_12 = _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 | 0x4;
+        if (!(((number32_t) _var_4 & 0xFFF3FF0) > 198256 || ((number32_t) _var_4 & 0xFFF3FF0) < 198224)) {
+          generic64_t _var_13;
+          generic64_t _var_14;
+          _var_14 = _lshift((uint64_t) ((((number32_t) _var_4 & 0xFFF3FF0) - 198224 & 0xFFFFFFF0) - 32), 4294967272);
+          _var_13 = _lshift((uint64_t) ((((number32_t) _var_4 & 0xFFF3FF0) - 198224 ^ 0x20) & (((number32_t) _var_4 & 0xFFF3FF0) - 198224 ^ (((number32_t) _var_4 & 0xFFF3FF0) - 198224 & 0xFFFFFFF0) - 32)), 4294967276);
+          _var_12 = _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 | 0x4;
+          if ((0x100010001 >> (((number32_t) _var_4 & 0xFFF3FF0) - 198224 & 0x30) & 0x1)) {
+            _var_12 = _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 | 0x5;
+            _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 = (number32_t) _var_12;
+          }
+        }
+      } break;
+    }
+  }
+  generic64_t _var_15;
+  _var_15 = _var_12;
+  if (!((number32_t) _var_9 ^ 0x68747541 | (number32_t) _var_11 ^ 0x69746E65 | (number32_t) _var_10 ^ 0x444D4163) && (_var_4 & 0xFF00F00) > 6295295) {
+    _var_15 = _var_12 & 0xFFFFFFFB | 0x4;
+    _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 = (number32_t) _var_15;
+  }
+  _stack._offset_0 = (number32_t) _var_7;
+  _stack._offset_4 = (number32_t) _var_6;
+  if ((int32_t) (number32_t) _var_8 < (int32_t) 7) {
+    generic64_t _var_16;
+    generic64_t _var_17;
+    _var_17 = _lshift((uint64_t) ((number32_t) _var_8 - 7), 4294967272);
+    _var_16 = _lshift((uint64_t) (((number32_t) _var_8 ^ 0x7) & ((number32_t) _var_8 - 7 ^ (number32_t) _var_8)), 4294967276);
+  } else {
+    _helper_cpuid_wrapper(NULL, 7, 0, &_var_0, &_var_1, &_var_2, &_var_3);
+    _stack._offset_16._member0 = (number32_t) _var_0;
+    _stack._offset_20._member0 = (number32_t) _var_1;
+    _stack._offset_24._member0 = (number32_t) _var_2;
+    _stack._offset_28._member0 = (number32_t) _var_3;
+    _stack._offset_8._member0 = (number32_t) _var_1;
+    if ((_var_1 & 0x200)) {
+      generic64_t _var_18;
+      _segment_0x180030000_Code_x86_64_2408._offset_1696._member0 = (number32_t) _var_15 | 0x2;
+      _var_18 = _lshift((uint64_t) ((number32_t) _var_15 | 0x2), 4294967272);
+    }
+  }
+  if (((number32_t) _var_6 & 0x100000)) {
+    _segment_0x180030000_Code_x86_64_2408._offset_24._member0 = 2;
+    _segment_0x180030000_Code_x86_64_2408._offset_28._member0 = 6;
+    if (((number32_t) _var_6 & 0x8000000)) {
+    }
+  }
+  return 0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180024390_Code_x86_64(void) {
+  return 1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180024398_Code_x86_64(void) {
+  return _segment_0x180030000_Code_x86_64_2408._offset_48 != 0;
+}
+
+_ABI(raw_x86_64)
+void _function_0x1800243a4_Code_x86_64(generic64_t _register_rcx _REG(rcx_x86_64), _union_155 *_register_rdx _REG(rdx_x86_64), _struct_102 _stack_arguments _STACK) {
+  _struct_125 _stack;
+  generic64_t _var_0;
+  generic64_t _var_1;
+  generic64_t _var_2;
+  generic64_t _var_3;
+  generic64_t _var_4;
+  generic64_t _var_5;
+  _artificial_struct_returned_by__rawfunction_66 _var_6;
+  _artificial_struct_returned_by__rawfunction_67 _var_7;
+  _function_0x1800248ea_Code_x86_64();
+  _segment_0x180030000_Code_x86_64_2408._offset_1700._member0 = 0;
+  _function_0x180024878_Code_x86_64();
+  _var_6 = ((_rawfunction_66 *) _segment_0x180025000_Code_x86_64_43520._offset_152)((pointer_or_number64_t) &_stack._offset_96 + 144, _undef_generic64_t());
+  _var_4 = _var_6._register_rax;
+  _var_3 = _var_6._register_r9;
+  _var_0 = _stack._offset_488._member0;
+  _var_7 = ((_rawfunction_67 *) _segment_0x180025000_Code_x86_64_43520._offset_120)(_var_0, (pointer_or_number64_t) &(&_stack)[1] + 16, 0);
+  _var_2 = _var_7._register_rax;
+  _var_1 = _var_7._register_r9;
+  _var_5 = _var_1;
+  if (_var_2) {
+    generic64_t _var_8;
+    _stack._offset_56 = 0;
+    _stack._offset_48 = (pointer_or_number64_t) &(&_stack)[1] + 24;
+    _stack._offset_40 = &(&_stack)[1]._offset_32;
+    _stack._offset_32 = (pointer_or_number64_t) &_stack._offset_96 + 144;
+    _var_8 = ((_rawfunction_68 *) _segment_0x180025000_Code_x86_64_43520._offset_112)(0, _stack_arguments._offset_8, _var_0, _var_2);
+    _var_5 = _var_8;
+  }
+  generic64_t _var_9;
+  generic64_t _var_10;
+  generic64_t _var_11;
+  _stack._offset_488._member0 = *(generic64_t *) &(&_stack)[1];
+  _stack._offset_392 = (pointer_or_number64_t) &(&_stack)[1] + 8;
+  _function_0x180024878_Code_x86_64();
+  _stack._offset_96 = *(generic64_t *) &(&_stack)[1];
+  _stack._offset_80 = 1073741845;
+  _stack._offset_84 = 1;
+  _var_11 = ((_rawfunction_69 *) _segment_0x180025000_Code_x86_64_43520._offset_32)(_var_5);
+  _stack._offset_64 = &_stack._offset_80;
+  _stack._offset_72 = (pointer_or_number64_t) &_stack._offset_96 + 144;
+  _var_10 = ((_rawfunction_70 *) _segment_0x180025000_Code_x86_64_43520._offset_48)(0, _var_5);
+  _var_9 = ((_rawfunction_71 *) _segment_0x180025000_Code_x86_64_43520._offset_56)(_var_10, (generic64_t) &_stack._offset_64, _var_5);
+  if (!(_var_9 & 0xFFFFFFFF)) {
+    generic32_t _var_12;
+    _var_12 = (_var_11 & 0xFFFFFFFF) == 1 ? _segment_0x180030000_Code_x86_64_2408._offset_1700._member0 : 0;
+    _segment_0x180030000_Code_x86_64_2408._offset_1700._member0 = _var_12;
+  }
+}
+
+_ABI(raw_x86_64)
+void _function_0x1800244ec_Code_x86_64(_struct_103 _stack_arguments _STACK) {
+  _struct_134 _stack;
+  generic64_t _var_0;
+  _stack_arguments._offset_24 = 47936899621426;
+  _stack_arguments._offset_8._member0 = 0;
+  _var_0 = _segment_0x180030000_Code_x86_64_2408._offset_8._member0;
+  if (_var_0 == 47936899621426) {
+    generic64_t _var_1;
+    generic64_t _var_2;
+    generic64_t _var_3;
+    ((_cabifunction_271 *) _segment_0x180025000_Code_x86_64_43520._offset_104)((pointer_or_number64_t) &(&_stack)[1] + 16);
+    _stack_arguments._offset_0._member0 = _stack_arguments._offset_8._member0;
+    _var_3 = ((_cabifunction_272 *) _segment_0x180025000_Code_x86_64_43520._offset_80)((pointer_or_number64_t) &(&_stack)[1] + 16);
+    _stack_arguments._offset_0._member0 = _stack_arguments._offset_0._member0 ^ _var_3 & 0xFFFFFFFF;
+    _var_2 = ((_cabifunction_273 *) _segment_0x180025000_Code_x86_64_43520._offset_72)((pointer_or_number64_t) &(&_stack)[1] + 16);
+    _stack_arguments._offset_0._member0 = _stack_arguments._offset_0._member0 ^ _var_2 & 0xFFFFFFFF;
+    ((_cabifunction_274 *) _segment_0x180025000_Code_x86_64_43520._offset_64)((pointer_or_number64_t) &(&_stack)[1] + 24);
+    _var_1 = (((number64_t) (_stack_arguments._offset_16._member0 & 0xFFFF) << 32 ^ _stack_arguments._offset_16._member1 ^ _stack_arguments._offset_0._member0 ^ (pointer_or_number64_t) &(&_stack)[1] + 8) & 0xFFFFFFFFFFFF) == 47936899621426 ? 47936899621427 : ((number64_t) (_stack_arguments._offset_16._member0 & 0xFFFF) << 32 ^ _stack_arguments._offset_16._member1 ^ _stack_arguments._offset_0._member0 ^ (pointer_or_number64_t) &(&_stack)[1] + 8) & 0xFFFFFFFFFFFF;
+    _var_0 = _var_1;
+    _segment_0x180030000_Code_x86_64_2408._offset_8._member0 = _var_0;
+  }
+  _segment_0x180030000_Code_x86_64_2408._offset_16 = ~_var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x180024598_Code_x86_64(generic64_t _argument0, generic64_t _argument1) {
+  if (((_argument1 & 0xFFFFFFFF) == 1) && (!*(generic64_t *) "")) {
+    ((_cabifunction_275 *) _segment_0x180025000_Code_x86_64_43520._offset_128)();
+  }
+  return 1;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800245bc_Code_x86_64(generic64_t _argument0) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800245d8_Code_x86_64(void) {
+  _union_165 *_var_0;
+  _union_159 *_var_1;
+  _var_1 = _function_0x180001020_Code_x86_64();
+  _var_1->_member0 = _var_1->_member0 | 0x4;
+  _var_0 = _function_0x180003a30_Code_x86_64();
+  _var_0->_member0 = _var_0->_member0 | 0x2;
+}
+
+_ABI(Microsoft_x86_64)
+_union_166 *_function_0x1800245f4_Code_x86_64(generic64_t _argument0, _union_155 *_argument1) {
+  return &_segment_0x180030000_Code_x86_64_2408._offset_2400;
+}
+
+_ABI(raw_x86_64)
+void _function_0x1800245fc_Code_x86_64(generic64_t _register_rcx _REG(rcx_x86_64), _union_155 *_register_rdx _REG(rdx_x86_64), _struct_101 _stack_arguments _STACK) {
+  _stack_arguments._offset_8 = "";
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t *_function_0x1800247a0_Code_x86_64(generic64_t *_argument0, generic64_t _argument1) {
+  *_argument0 = (pointer_or_number64_t) &_segment_0x180025000_Code_x86_64_43520._offset_864 + 32;
+  _function_0x18002488a_Code_x86_64();
+  if ((_argument1 & 0x1)) {
+    _function_0x18002367c_Code_x86_64();
+  }
+  return _argument0;
+}
+
+_ABI(Microsoft_x86_64)
+generic8_t *_function_0x180024824_Code_x86_64(_struct_156 *_argument0) {
+  generic64_t _var_0;
+  _var_0 = !_argument0->_offset_8 ? (generic64_t) "Unknown exception" : (generic64_t) _argument0->_offset_8;
+  return (generic8_t *) _var_0;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t *_function_0x180024840_Code_x86_64(generic64_t *_argument0, generic64_t _argument1) {
+  _struct_137 _stack;
+  _stack._offset_32 = _argument0;
+  *_argument0 = (pointer_or_number64_t) &_segment_0x180025000_Code_x86_64_43520._offset_912 + 120;
+  if ((_argument1 & 0x1)) {
+    _function_0x18002367c_Code_x86_64();
+  }
+  return _argument0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x180024878_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x18002488a_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248ae_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248b4_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248ba_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248c0_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248cc_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248d2_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248d8_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248de_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800248ea_Code_x86_64(void) {
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800248f0_Code_x86_64(_union_155 *_argument0) {
+  return 1;
+}
+
+_ABI(Microsoft_x86_64)
+generic64_t _function_0x1800248f4_Code_x86_64(generic64_t _argument0, _union_155 *_argument1) {
+  return 0;
+}
+
+_ABI(Microsoft_x86_64)
+void _function_0x1800249a0_Code_x86_64(void) {
+}
+
